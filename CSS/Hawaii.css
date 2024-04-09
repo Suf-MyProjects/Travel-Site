@@ -1,0 +1,52 @@
+.main-container{
+    width:175vh;
+    height:85vh;
+}
+.cover-image{
+    width:175vh;
+    height:85vh;
+    background-image: url(../Assets/Images/hawaii.jpg);
+    background-position:50% 53%;
+    background-size: cover;
+    padding-top: 4vh;
+}
+.main-title{
+    color:white;
+    font-size: 9vh;
+    margin:2% 8%;
+}
+.cards-container{
+    margin:4% 17%;
+    display: flex;
+    justify-content: space-between;
+}
+.itenary-card{ 
+    padding: 20px;
+    width: 80vh; 
+    height: 43vh;
+    margin-right:5vh;
+    border-radius: 4px;
+    background-color: white;
+}
+.card-list{
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin-top: 0;
+}
+.card-title,.card-item{
+    margin-bottom: 2vh; 
+    font-size: 2vh;
+    text-align: center;
+    padding: 0;
+}
+.card-item{
+    background-color: #FEFAF5;
+    padding:2vh;
+    font-weight: light;
+}
+.card-title{
+    border-bottom:3px solid black;
+    font-weight: bold;
+}
+

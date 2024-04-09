@@ -1,0 +1,78 @@
+.header{
+    background-color: #FEFAF5;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70vh;
+    padding: 0 8%;
+}
+.header-container, .header-title, .header-copy, .button{
+    text-align:left;
+    width:75vh;
+}
+.content-image{
+    width:40%;
+    height: 50vh;
+    margin-right: 20px;
+}
+.header-title{
+    color:#335576;
+    font-size: 40px;
+}
+.header-copy{
+    color: #335576;
+    font-weight: light;
+}
+.button{
+    text-decoration: none;
+    padding:10px 50px;
+    margin-top: 20px;
+    font-weight:light;
+    font-size: 15px;
+    color:white;
+    background-color: #DB7A4E;
+    cursor:pointer;
+    border-radius: 20px;
+    border:none;
+}
+
+main{
+    margin:0 8%;
+    padding-top:2%;
+}
+.main-title{
+    color: #335576;
+}
+.cards-container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10vh;
+}
+.card-destination{
+    width:33vh;
+    height:50vh;
+    position: relative;
+    border:1px solid black rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2);
+    margin-right: 5vh;
+}
+.card-image{
+    width:33vh;
+    height:50vh;
+    border-radius: 5px;
+}
+.card-image-text{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-right: 3vh;
+    text-align: right;
+    color: white;
+}
+.card-destination:hover{
+    opacity: 0.7;
+}
+.button:hover{
+    opacity: 0.7;
+}
